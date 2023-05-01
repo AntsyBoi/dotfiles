@@ -1,0 +1,36 @@
+font:
+  normal:
+    family: ComicCodeLigatures Nerd Font
+    style: Monospace
+
+  bold:
+    family: ComicCodeLigatures Nerd Font
+    style: Bold
+
+  italic:
+    family: ComicCodeLigatures Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: ComicCodeLigatures Nerd Font
+    style: BoldItalic
+
+  size: 11
+
+# Catppuccin theming
+import:
+  # uncomment the flavour you want below:
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+
+# Auto launch tmux
+#shell:
+#  program: tmux # <- set this to the path of your tmux installation
+#  args:
+#    - new-session
+#    - -A
+#    - -D
+#    - -s
+#    - main
